@@ -1,10 +1,10 @@
 {
   "scripts": {
     "build": "tsc",
-    "test": "jest -t",
-    "test_part1": "jest -t \"Task 1\"",
-    "test_part2": "jest -t \"Task 2\"",
-    "test_part3": "jest -t \"Task 3\""
+    "test": "npx jest",
+    "test_part1": "npx jest -t \"Task 1\"",
+    "test_part2": "npx jest -t \"Task 2\"",
+    "test_part3": "npx jest -t \"Task 3\""
 
   },
   "dependencies": {
